@@ -1,4 +1,4 @@
-// class Person{
+class Person{
   constructor(name,age){
     this.name=name
     this.age=age
@@ -18,6 +18,6 @@ class Employee extends Person{
 } 
 
 
-console.log(a)
+
 window.Person = Person;
 window.Employee = Employee;
